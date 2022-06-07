@@ -84,6 +84,7 @@ a.contact_link:hover {
   background: #070f06;
   color: white;
   display: grid;
+  display: flex;
   height: 50rem;
   grid-template-columns: 1.5rem auto auto auto 1.5rem;
 }
@@ -91,6 +92,8 @@ a.contact_link:hover {
 .education {
   background: #9cd9a3;
   position: relative;
+  height: 30rem;
+  display: flex;
 }
 
 .projects {
