@@ -236,11 +236,12 @@ a.contact_link:hover {
   top: 27rem;
 }
 
-.linkedin, .github, .facebook {
+.linkedin, .github, .facebook, .resume {
   min-width: 4rem;
   max-width: 4rem;
   min-height: 4rem;
   max-height: 4rem;
+  margin: 2px;
 }
 
 .Towne_Park {
