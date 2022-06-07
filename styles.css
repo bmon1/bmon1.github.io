@@ -338,6 +338,10 @@ hr.solid {
   width: 65%; background-color: #f44336;
 }
 
+.sql {
+  width: 70%; background-color: #2196F3;
+}
+
 .Branden_img {
   /*position: absolute;
   top: 52rem;
