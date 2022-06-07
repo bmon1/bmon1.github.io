@@ -244,6 +244,14 @@ a.contact_link:hover {
   margin: 2px;
 }
 
+.resume {
+  min-width: 4rem;
+  max-width: 4rem;
+  min-height: 4rem;
+  max-height: 4rem;
+  margin: 2px;
+}
+
 .Towne_Park {
   grid-column: 1 / 3;
 }
