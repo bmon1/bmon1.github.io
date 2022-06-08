@@ -103,6 +103,7 @@ a.contact_link:hover {
 
 .project {
   display: block;
+  width: 33%;
 }
 
 .project_line {
@@ -124,7 +125,10 @@ a.contact_link:hover {
 
 .project button {
   margin: 1rem 0 0 10rem;
-
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
 }
 
 .movie_database_project_img, .dash_covid_world_img, .dash_covid_us_img {
