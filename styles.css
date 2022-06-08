@@ -128,7 +128,7 @@ a.contact_link:hover {
 }
 
 .movie_database_project_img, .dash_covid_world_img, .dash_covid_us_img {
-  width: 30rem;
+  width: 30%;
   min-width: 15rem;
   max-width: 30rem;
   height: 14rem;
@@ -380,7 +380,6 @@ hr.solid {
 }
 
 .Branden_img {
-
   border-radius: 25px;
   min-width: 12rem;
   max-width: 12rem;
