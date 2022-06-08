@@ -128,7 +128,9 @@ a.contact_link:hover {
 }
 
 .movie_database_project_img, .dash_covid_world_img, .dash_covid_us_img {
-  width: 30%;
+  width: 30rem;
+  min-width: 15rem;
+  max-width: 30rem;
   height: 14rem;
   min-height: 7rem;
   max-height: 14rem;
