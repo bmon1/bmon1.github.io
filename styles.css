@@ -214,7 +214,7 @@ a.contact_link:hover {
   grid-column: 4 / 7;
 }
 
-.critical_thinking, .leadership, .communication, .conflict_resolution,
+.critical_thinking, .leadership, .communication, .detail_oriented,
 .multitasking, .teamwork, .time_management, .independence, .adaptability {
   position: absolute;
   min-width: 8rem;
@@ -241,7 +241,7 @@ a.contact_link:hover {
   top: 6rem;
 }
 
-.conflict_resolution {
+.detail_oriented {
   opacity: .2;
   right: 24rem;
   top: 17rem;
