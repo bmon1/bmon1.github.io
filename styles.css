@@ -97,6 +97,36 @@ a.contact_link:hover {
 
 .projects {
   background: #6e756d;
+  display:block;
+  height: 30rem;
+}
+
+.project_line {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.details {
+  margin: 1rem;
+}
+
+#movie_details, #covid_us_details, #covid_world_details {
+  display: none;
+}
+
+.project button {
+  margin: 1rem 0 0 10rem;
+
+}
+
+.movie_database_project_img, .dash_covid_world_img, .dash_covid_us_img {
+  min-width: 30rem;
+  max-width: 30rem;
+  min-height: 14rem;
+  max-height: 14rem;
 }
 
 .contact {

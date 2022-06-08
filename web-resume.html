@@ -125,8 +125,30 @@
     </div>
 
     <div class="projects section" id="projects">
-      <h1>Projects</h1>
-      <h3>Coming Soon</h3>
+      <h1 style="text-align: center; margin: .5rem;">Projects</h1>
+      <div class="project_line">
+        <div class="movie_database_project project">
+          <image class="movie_database_project_img" src="Movie_Database_Project_Picture.png" alt="Movie Database">
+          <button onclick="showHiddenMovie()">Movie Database</button>
+          <div class="details" id="movie_details">
+            This is my DIV element.
+          </div>
+        </div>
+        <div class="dash_covid_world_project project">
+          <image class="dash_covid_world_img" src="Dash_Project_Picture.png" alt="Covid World Map">
+          <button onclick="showHiddenWorld()">Covid World Map</button>
+          <div class="details" id="covid_world_details">
+            This is my DIV element.
+          </div>
+        </div>
+        <div class="dash_covid_us_project project">
+          <image class="dash_covid_us_img" src="Dash_Project_Picture_US.png" alt="Covid US Map">
+          <button onclick="showHiddenUS()">Covid US Map</button>
+          <div class="details" id="covid_us_details">
+            This is my DIV element.
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="work_experience section" id="work_experience">
@@ -246,6 +268,38 @@
     })
   </script>
 
+  <script>
+    function showHiddenMovie() {
+      var x = document.getElementById("movie_details");
+      if (x.style.display === "none") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <script>
+    function showHiddenWorld() {
+      var x = document.getElementById("covid_world_details");
+      if (x.style.display === "none") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <script>
+    function showHiddenUS() {
+      var x = document.getElementById("covid_us_details");
+      if (x.style.display === "none") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
 </body>
 </html>
