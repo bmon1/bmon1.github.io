@@ -154,6 +154,7 @@ a.contact_link:hover {
   min-height: 20rem;
   max-height: 20rem;
   border-radius: 150px;
+  overflow: hidden;
 }
 
 .education_row {
