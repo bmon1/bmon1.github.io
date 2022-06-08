@@ -380,9 +380,7 @@ hr.solid {
 }
 
 .Branden_img {
-  /*position: absolute;
-  top: 52rem;
-  left: 28rem;*/
+
   border-radius: 25px;
   min-width: 12rem;
   max-width: 12rem;
@@ -392,7 +390,7 @@ hr.solid {
 
 .skill_chart {
   padding: 0rem 2rem;
-  grid-column: 4 / 6;
+  grid-column: 3 / 6;
 }
 
 .about_me {
