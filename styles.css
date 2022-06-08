@@ -97,20 +97,25 @@ a.contact_link:hover {
 
 .projects {
   background: #6e756d;
-  display:block;
-  height: 30rem;
+  display: block;
+  height: 35rem;
+}
+
+.project {
+  display: block;
 }
 
 .project_line {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
+  padding: 2rem 0 0 1.5rem;
 }
 
 .details {
-  margin: 1rem;
+  margin-top: 1.5rem;
+  width: 30rem;
 }
 
 #movie_details, #covid_us_details, #covid_world_details {
@@ -123,9 +128,11 @@ a.contact_link:hover {
 }
 
 .movie_database_project_img, .dash_covid_world_img, .dash_covid_us_img {
-  min-width: 30rem;
+  width: 30rem;
+  min-width: 15rem;
   max-width: 30rem;
-  min-height: 14rem;
+  height: 14rem;
+  min-height: 7rem;
   max-height: 14rem;
 }
 

@@ -18,6 +18,7 @@
         <a class="link" href="#education">Education</a>
         <a class="link" href="#projects">Projects</a>
         <a class="link" href="#work_experience">Work Experience</a>
+        <a class="link" href="Branden-Monroe-Resume.docx">My Resume</a>
         <a class="link contact_link" href="#contact">Contact Me</a>
       </div>
     </header>
@@ -129,23 +130,34 @@
       <div class="project_line">
         <div class="movie_database_project project">
           <image class="movie_database_project_img" src="Movie_Database_Project_Picture.png" alt="Movie Database">
-          <button onclick="showHiddenMovie()">Movie Database</button>
+          <button id="movie_button" onclick="showHiddenMovie()">Movie Database</button>
           <div class="details" id="movie_details">
-            This is my DIV element.
+            <p>Python, HTML, CSS, JavaScript, SQLite, Flask, Jinja, and Bootstrap were used to build this dynamic application.
+            The user must sign in or register an account before using the app. Once inside, the user can search a database of
+            movies. Any movie that is clicked is considered "watched". Watched movies are put into a database where they are
+            used to recommend more movies based on genre.</p>
           </div>
         </div>
         <div class="dash_covid_world_project project">
           <image class="dash_covid_world_img" src="Dash_Project_Picture.png" alt="Covid World Map">
-          <button onclick="showHiddenWorld()">Covid World Map</button>
+          <button id="covid_world_button" onclick="showHiddenWorld()">Covid World Map</button>
           <div class="details" id="covid_world_details">
-            This is my DIV element.
+            <p>Python, Dash, Pandas, and Plotly were used to build this project which reads from a csv file
+            to determine the areas of the world hit the hardest by Covid-19 at specific times since the
+            beginning of the pandemic. The total death count by country is the metric used to edit the
+            color of each country on the map. Statistics such as total cases, new cases, and new deaths are shown
+            for each day chosen by the user.</p>
           </div>
         </div>
         <div class="dash_covid_us_project project">
           <image class="dash_covid_us_img" src="Dash_Project_Picture_US.png" alt="Covid US Map">
-          <button onclick="showHiddenUS()">Covid US Map</button>
+          <button id="covid_us_button" onclick="showHiddenUS()">Covid US Map</button>
           <div class="details" id="covid_us_details">
-            This is my DIV element.
+            <p>Python, Dash, Pandas, and Plotly were used to build this project which reads from a csv file
+            to determine the areas of the United States hit the hardest by Covid-19 at specific times since the
+            beginning of the pandemic. The total death count by state is the metric used to edit the
+            color of each state on the map. Statistics such as total cases, new cases, and new deaths are shown
+            for each day chosen by the user.</p>
           </div>
         </div>
       </div>
@@ -271,10 +283,12 @@
   <script>
     function showHiddenMovie() {
       var x = document.getElementById("movie_details");
+      var y = document.getElementById("movie_button");
+      y.style.display = "none";
       if (x.style.display === "none") {
         x.style.display = "none";
       } else {
-        x.style.display = "block";
+        x.style.display = "flex";
       }
     }
   </script>
@@ -282,10 +296,12 @@
   <script>
     function showHiddenWorld() {
       var x = document.getElementById("covid_world_details");
+      var y = document.getElementById("covid_world_button");
+      y.style.display = "none";
       if (x.style.display === "none") {
         x.style.display = "none";
       } else {
-        x.style.display = "block";
+        x.style.display = "flex";
       }
     }
   </script>
@@ -293,10 +309,12 @@
   <script>
     function showHiddenUS() {
       var x = document.getElementById("covid_us_details");
+      var y = document.getElementById("covid_us_button");
+      y.style.display = "none";
       if (x.style.display === "none") {
         x.style.display = "none";
       } else {
-        x.style.display = "block";
+        x.style.display = "flex";
       }
     }
   </script>
